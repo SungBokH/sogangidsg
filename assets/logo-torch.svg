@@ -1,0 +1,44 @@
+<svg width="44" height="48" viewBox="-22 -25.4 44 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Handle: cone (pointed at bottom, like a torch tip) -->
+  <path d="M -7.2 4 L 7.2 4 L 0 17 Z" fill="#B60007"/>
+  <!-- Cup (trapezoidal holder) -->
+  <path d="M -20.7 -5 L 20.7 -5 L 16.2 4 L -16.2 4 Z" fill="#B60007"/>
+
+  <!-- 5 bars with flame tips: straight sides, curved shoulder, sharp point at top -->
+  <!-- Control points pull outward (near shoulder) to create a soft curve, then converge to a sharp tip -->
+
+  <!-- Bar 1: x=-20.5 to -15.5, top y=-12.8, shoulder y=-7.8 -->
+  <path d="M -20.5 -5.8
+           L -20.5 -7.8
+           C -20.5 -9, -20 -10, -18 -12.8
+           C -16 -10, -15.5 -9, -15.5 -7.8
+           L -15.5 -5.8 Z" fill="#B60007"/>
+
+  <!-- Bar 2: x=-11.5 to -6.5, top y=-15.8, shoulder y=-10.8 -->
+  <path d="M -11.5 -5.8
+           L -11.5 -10.8
+           C -11.5 -12, -11 -13, -9 -15.8
+           C -7 -13, -6.5 -12, -6.5 -10.8
+           L -6.5 -5.8 Z" fill="#B60007"/>
+
+  <!-- Bar 3: x=-2.5 to 2.5, top y=-18.8, shoulder y=-13.8 -->
+  <path d="M -2.5 -5.8
+           L -2.5 -13.8
+           C -2.5 -15, -2 -16, 0 -18.8
+           C 2 -16, 2.5 -15, 2.5 -13.8
+           L 2.5 -5.8 Z" fill="#B60007"/>
+
+  <!-- Bar 4: x=6.5 to 11.5, top y=-20.8, shoulder y=-15.8 - AMBER -->
+  <path d="M 6.5 -5.8
+           L 6.5 -15.8
+           C 6.5 -17, 7 -18, 9 -20.8
+           C 11 -18, 11.5 -17, 11.5 -15.8
+           L 11.5 -5.8 Z" fill="#E8A317"/>
+
+  <!-- Bar 5: x=15.5 to 20.5, top y=-23.8, shoulder y=-18.8 -->
+  <path d="M 15.5 -5.8
+           L 15.5 -18.8
+           C 15.5 -20, 16 -21, 18 -23.8
+           C 20 -21, 20.5 -20, 20.5 -18.8
+           L 20.5 -5.8 Z" fill="#B60007"/>
+</svg>

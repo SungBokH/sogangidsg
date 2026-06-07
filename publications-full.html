@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Papers &amp; Journals — Sogang iDS Group</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- ===== Fixed top header band (cream background) ===== -->
+  <div class="top-header-bar"></div>
+
+  <!-- ===== Site identifier (top-left) ===== -->
+  <div class="site-identifier">
+    <div class="sogang-mark">
+      <img src="assets/sogang-logo.png" alt="Sogang University">
+    </div>
+    <div class="logo-mark">
+      <img src="assets/logo-torch.svg" alt="Sogang iDS Group">
+    </div>
+    <div class="logo-divider"></div>
+    <div class="lockup">
+      <div class="lockup-main">Sogang iDS Group</div>
+      <div class="lockup-sub">Sogang Interactive Data Science Group</div>
+    </div>
+  </div>
+
+  <!-- ===== Top-Right Navigation (Paris Métro panel) ===== -->
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <div class="has-dropdown">
+      <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Members ▾</button>
+      <div class="dropdown">
+        <a href="pi.html">PI</a>
+        <a href="researchers.html">Researchers</a>
+      </div>
+    </div>
+    <div class="has-dropdown">
+      <button type="button" class="dropdown-toggle active-parent" aria-haspopup="true" aria-expanded="false">Publications ▾</button>
+      <div class="dropdown">
+        <a href="publications-full.html" class="active">Full Papers &amp; Journals</a>
+        <a href="publications-workshop.html">Short / Workshop / Posters / Korean</a>
+      </div>
+    </div>
+    <a href="cv/curriculum_vitae_sungbokshin.pdf" target="_blank" download>CV</a>
+  </nav>
+
+  <main>
+
+    <header class="page-header">
+      <div class="station-sign">
+        <div class="station-line">I</div>
+        <div class="station-name">
+          <h2>Full Papers &amp; Journals</h2>
+        </div>
+      </div>
+      <p class="page-subtitle">— Peer-reviewed Conference Full Paper Proceedings and Journal Articles —</p>
+    </header>
+
+    <!-- ============================================================
+         EDITOR'S NOTE (for the author):
+
+         To ADD a new publication, copy one of the <div class="publication">
+         blocks below and paste it under the correct year.
+
+         STRUCTURE:
+           <div class="publication">
+             <span class="pub-title">Title of the Paper <span class="pub-flags"><span class="cond-badge" title="Conditionally accepted — revisions in progress">Conditionally Accepted</span><span class="new-badge" title="New">New</span></span></span>
+             <div class="pub-authors">
+               Author One, <span class="me">Sungbok Shin</span>, Author Three
+             </div>
+             <div class="pub-venue">
+               Venue Name (YEAR), City, Country
+             </div>
+             <div class="pub-links">             (OPTIONAL)
+               <a href="pdf/paper.pdf">PDF</a>
+               <a href="#">DOI</a>
+             </div>
+           </div>
+
+         Wrap your own name in <span class="me">...</span>.
+         The yellow Métro Line 1 "New" badge is OPTIONAL — drop the
+         <span class="new-badge">New</span> once a paper is no longer new.
+         Remember to bump `counter-reset: pub N` in style.css (.pub-list)
+         to (total papers + 1) whenever you add or remove a paper.
+         ============================================================ -->
+
+    <div class="pub-list">
+
+      <!-- ====== 2026 ====== -->
+      <div class="pub-year">2026</div>
+
+      <div class="publication">
+        <span class="pub-title">Treadstone: A Communication Channel for Human-AI Collaborative Data Analysis <span class="pub-flags"><span class="cond-badge" title="Conditionally accepted — revisions in progress">Conditionally Accepted</span><span class="new-badge" title="New">New</span></span></span>
+        <div class="pub-authors">
+          Hyunwook Lee, Sungbeom Cho, William Benjamin, Changhee Lee, Hyotaek Jeon, Daeun Jeong, <span class="me">Sungbok Shin</span>, Sungahn Ko, Niklas Elmqvist
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (VIS'2026), 2026, Boston, MA, United States
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Stop Misusing t-SNE and UMAP for Visual Analytics <span class="pub-flags"><span class="cond-badge" title="Conditionally accepted — revisions in progress">Conditionally Accepted</span><span class="new-badge" title="New">New</span></span></span>
+        <div class="pub-authors">
+          Hyeon Jeon, Jeongin Park, <span class="me">Sungbok Shin</span>, Jinwook Seo
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (VIS'2026), 2026, Boston, MA, United States
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Visualization Autocomplete: Visualization Authoring via Stepwise Design Recommendations <span class="pub-flags"><span class="cond-badge" title="Conditionally accepted — revisions in progress">Conditionally Accepted</span><span class="new-badge" title="New">New</span></span></span>
+        <div class="pub-authors">
+          Hyeon Jeon, <span class="me">Sungbok Shin</span>**, Niklas Elmqvist &nbsp;<em>(**: Correspondence)</em>
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (VIS'2026), 2026, Boston, MA, United States
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Enriching Semantic Profiles into Knowledge Graph for Recommender Systems Using Large Language Models</span>
+        <div class="pub-authors">
+          Seokho Ahn, <span class="me">Sungbok Shin</span>*, Youngduk Seo* &nbsp;<em>(*: Co-correspondence)</em>
+        </div>
+        <div class="pub-venue">
+          ACM Conference on Knowledge Discovery and Data Mining (KDD 2026), Jeju, South Korea
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Dataset-Adaptive Dimensionality Reduction</span>
+        <div class="pub-authors">
+          Hyeon Jeon, Jeongin Park, Soohyun Lee, Dae Hyun Kim, <span class="me">Sungbok Shin</span>, Jinwook Seo
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (VIS 2025), Vienna, Austria <em>(In Press)</em>
+        </div>
+      </div>
+
+      <!-- ====== 2025 ====== -->
+      <div class="pub-year">2025</div>
+
+
+      <div class="publication">
+        <span class="pub-title">Visualizationary: Automating Design Feedback for Visualization Designers Using Large Language Models</span>
+        <div class="pub-authors">
+          <span class="me">Sungbok Shin</span>, Sanghyun Hong, Niklas Elmqvist
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (TVCG), 2025 <em>(In Press)</em>
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Drillboards: Adaptive Visualization Dashboards for Dynamic Personalization of Visualization Experiences</span>
+        <div class="pub-authors">
+          <span class="me">Sungbok Shin</span>*, Inyoup Na*, Niklas Elmqvist &nbsp;<em>(*: Equal contributions)</em>
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (TVCG), 2025 <em>(In Press)</em>
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Conversation Progress Guide: UI System for Enhancing Self-Efficacy in Conversational AI</span>
+        <div class="pub-authors">
+          Daeun Jung, <span class="me">Sungbok Shin</span>, Jongwook Jeong
+        </div>
+        <div class="pub-venue">
+          ACM Conference on Human Factors in Computing Systems (CHI 2025), Yokohama, Japan
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Real-time Calibration Model for Low-cost Sensor in Fine-grained Time Series</span>
+        <div class="pub-authors">
+          Seokho Ahn, Hyungjin Kim, <span class="me">Sungbok Shin</span>, Young-Duk Seo
+        </div>
+        <div class="pub-venue">
+          AAAI Conference on Artificial Intelligence (AAAI 2025), Philadelphia, PA, United States
+        </div>
+      </div>
+
+      <!-- ====== 2024 ====== -->
+      <div class="pub-year">2024</div>
+
+      <div class="publication">
+        <span class="pub-title">The Reality of the Situation: A Survey of Situated Analytics</span>
+        <div class="pub-authors">
+          <span class="me">Sungbok Shin</span>, Andrea Batch, Peter W. S. Butcher, Panagiotis D. Ritsos, Niklas Elmqvist
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (TVCG), 30(8), 5147–5164, 2024 &nbsp;<em>(Presented at VIS 2023)</em>
+        </div>
+      </div>
+
+      <!-- ====== 2023 ====== -->
+      <div class="pub-year">2023</div>
+
+      <div class="publication">
+        <span class="pub-title">Evaluating View Management for Situated Visualization in Web-based Handheld AR</span>
+        <div class="pub-authors">
+          Andrea Batch, <span class="me">Sungbok Shin</span>, Julia Liu, Peter W. S. Butcher, Panagiotis D. Ritsos, Niklas Elmqvist
+        </div>
+        <div class="pub-venue">
+          Computer Graphics Forum (EuroVis 2023), Leipzig, Germany
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Perceptual Pat: A Virtual Human Visual System for Iterative Visualization Design</span>
+        <div class="pub-authors">
+          <span class="me">Sungbok Shin</span>, Sanghyun Hong, Niklas Elmqvist
+        </div>
+        <div class="pub-venue">
+          ACM Conference on Human Factors in Computing Systems (CHI 2023), 811:1–17, Hamburg, Germany
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">A Scanner Deeply: Predicting Gaze Heatmaps on Visualizations Using Crowdsourced Eye Movement Data</span>
+        <div class="pub-authors">
+          <span class="me">Sungbok Shin</span>, Sunghyo Chung, Sanghyun Hong, Niklas Elmqvist
+        </div>
+        <div class="pub-venue">
+          IEEE Transactions on Visualization and Computer Graphics (VIS 2022), 29(1), 396–406, 2023, Oklahoma City, OK, United States
+        </div>
+      </div>
+
+      <!-- ====== Before 2023 ====== -->
+      <div class="pub-year">Before 2023</div>
+
+      <div class="publication">
+        <span class="pub-title">TopicOnTiles: Tile-Based Spatio-Temporal Event Analytics via Exclusive Topic Modeling on Social Media</span>
+        <div class="pub-authors">
+          Minsuk Choi, <span class="me">Sungbok Shin</span>, Jinho Choi, Scott Langevin, &hellip;, Jaegul Choo
+        </div>
+        <div class="pub-venue">
+          ACM Conference on Human Factors in Computing Systems (CHI 2018), 583:1–583:11, Montreal, QC, Canada
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">Localized User-Driven Topic Discovery via Boosted Ensemble of Nonnegative Matrix Factorization</span>
+        <div class="pub-authors">
+          Sangho Suh, <span class="me">Sungbok Shin</span>, Joonsuk Lee, Chandan K. Reddy, Jaegul Choo
+        </div>
+        <div class="pub-venue">
+          Knowledge and Information Systems (KAIS), 503–531, 2018
+        </div>
+      </div>
+
+      <div class="publication">
+        <span class="pub-title">STExNMF: Spatio-Temporally Exclusive Topic Discovery for Anomalous Event Detection</span>
+        <div class="pub-authors">
+          <span class="me">Sungbok Shin</span>, Minsuk Choi, Jinho Choi, Scott Langevin, &hellip;, Jaegul Choo
+        </div>
+        <div class="pub-venue">
+          IEEE International Conference on Data Mining (ICDM 2017), 435–444, New Orleans, LA, United States
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-main">Sogang Interactive Data Science Group</div>
+    <div class="footer-sub">The design is inspired by the French Métro system</div>
+  </footer>
+
+  <script src="assets/nav.js"></script>
+</body>
+</html>
