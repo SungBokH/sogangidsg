@@ -166,16 +166,4 @@ and cropped tight to the shield.
 </div>
 ```
 
-## Parisine Font (Optional)
 
-Commercial typeface from Typofonderie. Purchase at
-[typofonderie.com/fonts/parisine](https://typofonderie.com/fonts/parisine),
-drop `.woff2` files into `assets/fonts/`, and uncomment the `@font-face`
-block at the top of `assets/style.css`. Without it, Helvetica is used.
-
-## Deploy to GitHub Pages
-
-1. Create a repo (e.g. `yourusername.github.io`)
-2. Push this folder's contents
-3. Settings → Pages → source = `main` / root
-4. Live at `https://yourusername.github.io/`
