@@ -29,30 +29,24 @@
 
   <!-- ===== Top-Right Navigation (Paris Métro panel) ===== -->
   <nav class="top-nav">
-    <a href="index.html" class="active">Home</a>
+    <a href="index.html" class="nav-home active">Home</a>
+    <a href="pi.html" class="nav-members">PI</a>
+    <a href="researchers.html" class="nav-members">Researchers</a>
     <div class="has-dropdown">
-      <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Members ▾</button>
+      <button class="dropdown-toggle nav-pubs" aria-haspopup="true" aria-expanded="false">Publications &#9662;</button>
       <div class="dropdown">
-        <a href="pi.html">PI</a>
-        <a href="researchers.html">Researchers</a>
+        <a href="publications-full.html" class="nav-pubs">Full Papers &amp; Journals</a>
+        <a href="publications-workshop.html" class="nav-pubs">Short / Workshop / Posters / Korean</a>
       </div>
     </div>
-    <div class="has-dropdown">
-      <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Publications ▾</button>
-      <div class="dropdown">
-        <a href="publications-full.html">Full Papers &amp; Journals</a>
-        <a href="publications-workshop.html">Short / Workshop / Posters / Korean</a>
-      </div>
-    </div>
-    <a href="cv/curriculum_vitae_sungbokshin.pdf" target="_blank" download>CV</a>
   </nav>
 
   <!-- ===== MAIN ===== -->
   <main>
 
     <header class="page-header">
-      <div class="station-sign">
-        <div class="station-line">M</div>
+      <div class="station-sign station-sign--major">
+        <div class="station-line"><img src="assets/logo-torch.svg" alt="Sogang iDS logo" class="station-line-icon"></div>
         <div class="station-name">
           <div class="kicker">Sogang</div>
           <h2>Interactive Data Science Group</h2>
@@ -63,6 +57,26 @@
     <p class="lead">
       The <strong>Sogang Interactive Data Science Group</strong> is based at the Department of Computer Science and Engineering @ Sogang University, Seoul, South Korea. The group is led by <strong>Dr. Sungbok Shin</strong>. The group mainly studies topics such as Human-Centered AI, AI Governance, and Information Visualization. We build interactive systems that <em>augment human activity</em> through the use of Artificial Intelligence.  
     </p>
+
+
+      <div class="section-heading">Join Us</div>
+
+    <div class="contact-box">
+      <div class="contact-header">A Note to Prospective Students</div>
+      <div class="contact-body">
+        <p>
+          If you are interested in pursuing research in the topics above, please feel free to reach out at &nbsp;<a href="mailto:sbshin90@sogang.ac.kr">sbshin90@sogang.ac.kr</a>.
+        </p>
+        <p>
+          HCI and Data Visualization are inherently <em>interdisciplinary</em>, and hence we welcome applicants from a range of backgrounds. Students with <strong>Computer Science</strong> background are encouraged, but other majors (e.g., Psychology) might potentially be a good fit.
+        </p>
+
+        <p style="color: #1f5fa6; font-weight: 700;"> [Updated June 8, 2026] I don't yet have concrete plans to recruit students, but I might. I am always looking for motivated and smart students! So if you are interested, please reach out!</p>
+        <p style="font-size: 0.88rem; color: var(--muted); font-style: italic;">
+          Please include a brief statement of interest, your CV, and any work you are proud of.
+        </p>
+      </div>
+    </div>
 
     <div class="section-heading"> Brief Research Intro</div>
 
@@ -130,25 +144,6 @@
     <p class="see-all-pubs">
       <a href="publications-full.html">See the full publication list &rarr;</a>
     </p>
-
-    <div class="section-heading">Join Us</div>
-
-    <div class="contact-box">
-      <div class="contact-header">A Note to Prospective Students</div>
-      <div class="contact-body">
-        <p>
-          If you are interested in pursuing research in the topics above, please feel free to reach out at &nbsp;<a href="mailto:sbshin90@sogang.ac.kr">sbshin90@sogang.ac.kr</a>.
-        </p>
-        <p>
-          HCI and Data Visualization are inherently <em>interdisciplinary</em>, and hence we welcome applicants from a range of backgrounds. Students with <strong>Computer Science</strong> background are encouraged, but other majors (e.g., Psychology) might potentially be a good fit.
-        </p>
-
-        <p style="color: #1f5fa6; font-weight: 700;"> I don't yet have concrete plans to recruit students, but I might. I am always looking for motivated and smart students! So if you are interested, please reach out!</p>
-        <p style="font-size: 0.88rem; color: var(--muted); font-style: italic;">
-          Please include a brief statement of interest, your CV, and any work you are proud of.
-        </p>
-      </div>
-    </div>
 
   </main>
 

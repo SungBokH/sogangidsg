@@ -28,22 +28,16 @@
 
   <!-- ===== Top-Right Navigation (Paris Métro panel) ===== -->
   <nav class="top-nav">
-    <a href="index.html">Home</a>
+    <a href="index.html" class="nav-home">Home</a>
+    <a href="pi.html" class="nav-members">PI</a>
+    <a href="researchers.html" class="nav-members">Researchers</a>
     <div class="has-dropdown">
-      <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Members ▾</button>
+      <button class="dropdown-toggle nav-pubs active-parent" aria-haspopup="true" aria-expanded="false">Publications &#9662;</button>
       <div class="dropdown">
-        <a href="pi.html">PI</a>
-        <a href="researchers.html">Researchers</a>
+        <a href="publications-full.html" class="nav-pubs">Full Papers &amp; Journals</a>
+        <a href="publications-workshop.html" class="nav-pubs active">Short / Workshop / Posters / Korean</a>
       </div>
     </div>
-    <div class="has-dropdown">
-      <button type="button" class="dropdown-toggle active-parent" aria-haspopup="true" aria-expanded="false">Publications ▾</button>
-      <div class="dropdown">
-        <a href="publications-full.html">Full Papers &amp; Journals</a>
-        <a href="publications-workshop.html" class="active">Short / Workshop / Posters / Korean</a>
-      </div>
-    </div>
-    <a href="cv/curriculum_vitae_sungbokshin.pdf" target="_blank" download>CV</a>
   </nav>
 
   <main>
@@ -58,6 +52,7 @@
         </div>
       </div>
       <p class="page-subtitle">— §1 Short Papers &middot; §2 Workshops &middot; §3 Posters &middot; §4 Korean Journals —</p>
+      <p class="corr-note">Unless otherwise specified, the last author is the corresponding author.</p>
     </header>
 
     <div class="pub-list workshop-list">
@@ -136,11 +131,6 @@
         <span class="subsection-label">Posters</span>
       </div>
 
-      <div class="empty-section-note">
-        No posters listed yet. To add one, copy a publication block and
-        use <code>Venue Name Poster, YYYY</code> in the venue line.
-      </div>
-
       <!-- TEMPLATE for a poster — copy, uncomment, and fill in:
       <div class="publication">
         <span class="pub-title">Poster Title</span>
@@ -159,11 +149,6 @@
       <div class="subsection-heading">
         <span class="subsection-number">§4</span>
         <span class="subsection-label">Korean Journals &middot; 국내 학술지</span>
-      </div>
-
-      <div class="empty-section-note">
-        No Korean journal publications listed yet. To add one, copy a
-        publication block and use the Korean journal name in the venue.
       </div>
 
       <!-- TEMPLATE for a Korean journal — copy, uncomment, and fill in:
